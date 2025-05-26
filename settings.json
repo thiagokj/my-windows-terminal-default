@@ -1,0 +1,109 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [],
+  "centerOnLaunch": true,
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{c7df51aa-0119-40a0-8cd7-eda41b5b3f90}",
+  "keybindings": [
+    {
+      "id": "Terminal.CopyToClipboard",
+      "keys": "ctrl+c"
+    },
+    {
+      "id": "Terminal.PasteFromClipboard",
+      "keys": "ctrl+v"
+    },
+    {
+      "id": "Terminal.FindText",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "Terminal.DuplicatePaneAuto",
+      "keys": "alt+shift+d"
+    }
+  ],
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {},
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Prompt de comando"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+        "hidden": false,
+        "name": "Git Bash",
+        "source": "Git"
+      },
+      {
+        "altGrAliasing": true,
+        "antialiasingMode": "grayscale",
+        "closeOnExit": "automatic",
+        "colorScheme": "One Dark",
+        "commandline": "powershell.exe -NoExit -Command oh-my-posh init pwsh --config \"$env:POSH_THEMES_PATH\\hunk.omp.json\" | Invoke-Expression",
+        "cursorShape": "bar",
+        "elevate": false,
+        "font": {
+          "face": "JetBrainsMono Nerd Font Mono",
+          "size": 10
+        },
+        "guid": "{c7df51aa-0119-40a0-8cd7-eda41b5b3f90}",
+        "hidden": false,
+        "historySize": 9001,
+        "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+        "name": "Terminal",
+        "padding": "8, 8, 8, 8",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%",
+        "useAcrylic": false
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#282C34",
+      "black": "#282C34",
+      "blue": "#61AFEF",
+      "brightBlack": "#5A6374",
+      "brightBlue": "#61AFEF",
+      "brightCyan": "#56B6C2",
+      "brightGreen": "#98C379",
+      "brightPurple": "#C678DD",
+      "brightRed": "#E06C75",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#E5C07B",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#56B6C2",
+      "foreground": "#ABB2BF",
+      "green": "#98C379",
+      "name": "One Dark",
+      "purple": "#C678DD",
+      "red": "#E06C75",
+      "selectionBackground": "#FFFFFF",
+      "white": "#DCDFE4",
+      "yellow": "#E5C07B"
+    }
+  ],
+  "themes": []
+}
