@@ -9,7 +9,7 @@ Aqui vamos aplicar uma abordagem diretamente no terminal padrão do terminal do 
    notepad $Profile
    ```
 
-1. Agora no bloco de notas, adicione o script:
+1. Agora no bloco de notas, adicione o script e salve:
 
    ```powershell
    # Só executa se o terminal for o integrado do Rider
