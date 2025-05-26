@@ -18,7 +18,13 @@ Depois:
 
 1. Baixe e instale a fonte [JetBrainsMono Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip).
 
-2. Habilite o PowerShell para Executar Scripts:
+1. Atualize o PowerShell para versão mais recente (7.x.x). Feche após a atualização e use essa versão.
+
+   ```powershell
+   winget install --id Microsoft.Powershell --source winget
+   ```
+
+1. Habilite o PowerShell para Executar Scripts:
 
    Abra o **PowerShell como Administrador** e execute o seguinte comando para permitir execução de scripts temporariamente:
 
@@ -26,7 +32,13 @@ Depois:
    Set-ExecutionPolicy Bypass -Scope Process -Force
    ```
 
-3. Instale o Chocolatey (choco)
+1. Instale o conjunto de ícones:
+
+   ```powershell
+   Install-Module -Name Terminal-Icons -Repository PSGallery -Scope CurrentUser -Force
+   ```
+
+1. Instale o Chocolatey (choco)
 
    Com o PowerShell ainda aberto como Administrador, execute:
 
@@ -40,7 +52,7 @@ Depois:
    choco --version
    ```
 
-4. Instale o Oh My Posh via Chocolatey
+1. Instale o Oh My Posh via Chocolatey
 
    Com o Chocolatey instalado, rode:
 
@@ -60,3 +72,8 @@ Depois:
 2. Clique na engrenagem, no canto inferior esquerdo, para abrir o arquivo de configuração `settings.json`.
 3. Substitua a configuração padrão por [essa](settings.json) e salve.
 4. Feche e abra novamente o terminal.
+
+# 🌟 Extras
+
+Terminal integrado VS Code
+Terminal integrado JetBrains Rider
