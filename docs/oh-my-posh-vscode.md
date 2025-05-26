@@ -10,4 +10,5 @@
 1. Adicione ou altere o conteúdo relacionado ao uso de fontes com essa [configuração](../assets/vscode/settings.json).
 
 1. Feche e abra o terminal integrado do VS Code.
+
    ![Terminal VS Code](../assets/img/terminal-vscode.png)

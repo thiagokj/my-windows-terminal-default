@@ -9,9 +9,11 @@ Essa é a minha configuração para o terminal do Windows 11 (Powershell), aplic
 - **Cores:** One Dark - personalizado
 
 Antes:
+
 ![antes](assets/img/terminal-antes.png)
 
 Depois:
+
 ![depois](assets/img/terminal-depois.png)
 
 ## ➡️ Instalação
@@ -75,5 +77,5 @@ Depois:
 
 # 🌟 Extras
 
-- [Terminal integrado VS Code](docs/vscode-oh-my-posh.md)
-- Terminal integrado JetBrains Rider
+- [Terminal integrado VS Code](docs/oh-my-posh-vscode.md)
+- [Terminal integrado JetBrains Rider](docs/oh-my-posh-rider.md)
